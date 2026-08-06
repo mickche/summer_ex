@@ -1,3 +1,5 @@
+# Exercise 4: Clear Dictionary
+
 def clear_d(d:dict) -> dict:
     d.clear()
     return d
