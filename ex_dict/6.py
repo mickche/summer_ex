@@ -1,6 +1,6 @@
 # Exercise 6: Access Nested Dictionary
 
-def func(person:dict) -> str:
+def about_person(person:dict) -> str:
     return person['address']['city']
 
-print(f'City: {func({"name": "Carol", "address": {"city": "Paris", "zip": "75001"}})}')
+print(f'City: {about_person({"name": "Carol", "address": {"city": "Paris", "zip": "75001"}})}')

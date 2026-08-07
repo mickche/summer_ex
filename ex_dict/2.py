@@ -1,6 +1,6 @@
 # Exercise 2: Dictionary Operations
 
-def func(car):
+def about_car(car):
     car_psevdo = []
     for k_v in car.items():
         car_psevdo.append(k_v)
@@ -14,4 +14,4 @@ def func(car):
             if_year = True
     return car_psevdo,if_brand,if_year
 
-print(func({"brand": "Toyota", "model": "Camry", "year": 2022, "color": "blue"}))
+print(about_car({"brand": "Toyota", "model": "Camry", "year": 2022, "color": "blue"}))

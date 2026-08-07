@@ -1,8 +1,8 @@
 # Exercise 1: Basic Dictionary Operations
 
-def func(student):
+def make_student(student):
     student.update({'age':21})
     return student,f"Name: {student['name']}"
 
-print(*func({"name": "Alice", "age": 20, "grade": "B"}))
+print(*make_student({"name": "Alice", "age": 20, "grade": "B"}))
 
